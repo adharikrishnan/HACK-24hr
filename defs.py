@@ -6,9 +6,10 @@ import numpy as np
 import itertools
 
 
-
+# Dataset path
 DATASET_PATH = 'Dataset/'
 
+# Helper function to create Confusion Matrix, code for reference 
 def display_cm(CM, classes, title = "Confusion Matrix", cmap = plot.cm.Blues):
     plot.imshow(CM, interpolation='nearest', cmap=cmap)
     plot.title(title)
